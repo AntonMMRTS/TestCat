@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34B970D27167C7800F7102C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B970C27167C7800F7102C /* DetailViewController.swift */; };
+		F34B97102716812000F7102C /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B970F2716812000F7102C /* RealmManager.swift */; };
+		F34B97132716816200F7102C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B97122716816200F7102C /* FavoritesViewController.swift */; };
+		F3DB353B271551A1002CA426 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB353A271551A1002CA426 /* NetworkManager.swift */; };
+		F3DB355F2715E002002CA426 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB355E2715E002002CA426 /* CollectionReusableView.swift */; };
+		F3DBB567271541A8003CF7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBB566271541A8003CF7C0 /* AppDelegate.swift */; };
+		F3DBB569271541A8003CF7C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBB568271541A8003CF7C0 /* SceneDelegate.swift */; };
+		F3DBB56B271541A8003CF7C0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBB56A271541A8003CF7C0 /* MainViewController.swift */; };
+		F3DBB56E271541A8003CF7C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DBB56C271541A8003CF7C0 /* Main.storyboard */; };
+		F3DBB570271541A9003CF7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DBB56F271541A9003CF7C0 /* Assets.xcassets */; };
+		F3DBB573271541A9003CF7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DBB571271541A9003CF7C0 /* LaunchScreen.storyboard */; };
+		F3DBB57D2715457E003CF7C0 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBB57C2715457E003CF7C0 /* MainCell.swift */; };
+		F3DBB5812715477B003CF7C0 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F3DBB5802715477B003CF7C0 /* RealmSwift */; };
+		F3DBB58427154792003CF7C0 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBB58327154792003CF7C0 /* CatModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F34B970C27167C7800F7102C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F34B970F2716812000F7102C /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		F34B97122716816200F7102C /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		F3DB353A271551A1002CA426 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F3DB355E2715E002002CA426 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		F3DBB563271541A8003CF7C0 /* KittyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DBB566271541A8003CF7C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3DBB568271541A8003CF7C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3DBB56A271541A8003CF7C0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F3DBB56D271541A8003CF7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3DBB56F271541A9003CF7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3DBB572271541A9003CF7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3DBB574271541A9003CF7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DBB57C2715457E003CF7C0 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		F3DBB58327154792003CF7C0 /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3DBB560271541A8003CF7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DBB5812715477B003CF7C0 /* RealmSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F34B971927169B9700F7102C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBB58327154792003CF7C0 /* CatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F34B971B27169BA800F7102C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBB56A271541A8003CF7C0 /* MainViewController.swift */,
+				F34B970C27167C7800F7102C /* DetailViewController.swift */,
+				F34B97122716816200F7102C /* FavoritesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F34B971D27169BCD00F7102C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB353A271551A1002CA426 /* NetworkManager.swift */,
+				F34B970F2716812000F7102C /* RealmManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F34B971F27169C2500F7102C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBB57C2715457E003CF7C0 /* MainCell.swift */,
+				F3DB355E2715E002002CA426 /* CollectionReusableView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F3DBB55A271541A8003CF7C0 = {
+			isa = PBXGroup;
+			children = (
+				F3DBB565271541A8003CF7C0 /* KittyCat */,
+				F3DBB564271541A8003CF7C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3DBB564271541A8003CF7C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBB563271541A8003CF7C0 /* KittyCat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3DBB565271541A8003CF7C0 /* KittyCat */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBB566271541A8003CF7C0 /* AppDelegate.swift */,
+				F3DBB568271541A8003CF7C0 /* SceneDelegate.swift */,
+				F34B971927169B9700F7102C /* Model */,
+				F34B971B27169BA800F7102C /* Controllers */,
+				F34B971F27169C2500F7102C /* Cells */,
+				F34B971D27169BCD00F7102C /* Managers */,
+				F3DBB56C271541A8003CF7C0 /* Main.storyboard */,
+				F3DBB56F271541A9003CF7C0 /* Assets.xcassets */,
+				F3DBB571271541A9003CF7C0 /* LaunchScreen.storyboard */,
+				F3DBB574271541A9003CF7C0 /* Info.plist */,
+			);
+			path = KittyCat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3DBB562271541A8003CF7C0 /* KittyCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DBB577271541A9003CF7C0 /* Build configuration list for PBXNativeTarget "KittyCat" */;
+			buildPhases = (
+				F3DBB55F271541A8003CF7C0 /* Sources */,
+				F3DBB560271541A8003CF7C0 /* Frameworks */,
+				F3DBB561271541A8003CF7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KittyCat;
+			packageProductDependencies = (
+				F3DBB5802715477B003CF7C0 /* RealmSwift */,
+			);
+			productName = KittyCat;
+			productReference = F3DBB563271541A8003CF7C0 /* KittyCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3DBB55B271541A8003CF7C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F3DBB562271541A8003CF7C0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F3DBB55E271541A8003CF7C0 /* Build configuration list for PBXProject "KittyCat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3DBB55A271541A8003CF7C0;
+			packageReferences = (
+				F3DBB57F2715477B003CF7C0 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = F3DBB564271541A8003CF7C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3DBB562271541A8003CF7C0 /* KittyCat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3DBB561271541A8003CF7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DBB573271541A9003CF7C0 /* LaunchScreen.storyboard in Resources */,
+				F3DBB570271541A9003CF7C0 /* Assets.xcassets in Resources */,
+				F3DBB56E271541A8003CF7C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3DBB55F271541A8003CF7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB355F2715E002002CA426 /* CollectionReusableView.swift in Sources */,
+				F3DB353B271551A1002CA426 /* NetworkManager.swift in Sources */,
+				F3DBB56B271541A8003CF7C0 /* MainViewController.swift in Sources */,
+				F3DBB567271541A8003CF7C0 /* AppDelegate.swift in Sources */,
+				F3DBB57D2715457E003CF7C0 /* MainCell.swift in Sources */,
+				F34B97102716812000F7102C /* RealmManager.swift in Sources */,
+				F3DBB58427154792003CF7C0 /* CatModel.swift in Sources */,
+				F3DBB569271541A8003CF7C0 /* SceneDelegate.swift in Sources */,
+				F34B97132716816200F7102C /* FavoritesViewController.swift in Sources */,
+				F34B970D27167C7800F7102C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3DBB56C271541A8003CF7C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DBB56D271541A8003CF7C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3DBB571271541A9003CF7C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DBB572271541A9003CF7C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3DBB575271541A9003CF7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3DBB576271541A9003CF7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DBB578271541A9003CF7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KCSBW72Y6;
+				INFOPLIST_FILE = KittyCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Usov.KittyCat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3DBB579271541A9003CF7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KCSBW72Y6;
+				INFOPLIST_FILE = KittyCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Usov.KittyCat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3DBB55E271541A8003CF7C0 /* Build configuration list for PBXProject "KittyCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DBB575271541A9003CF7C0 /* Debug */,
+				F3DBB576271541A9003CF7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DBB577271541A9003CF7C0 /* Build configuration list for PBXNativeTarget "KittyCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DBB578271541A9003CF7C0 /* Debug */,
+				F3DBB579271541A9003CF7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3DBB57F2715477B003CF7C0 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3DBB5802715477B003CF7C0 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3DBB57F2715477B003CF7C0 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F3DBB55B271541A8003CF7C0 /* Project object */;
+}
